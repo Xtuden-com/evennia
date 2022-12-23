@@ -19,3 +19,4 @@ black
 
 # windows-specific
 pypiwin32;platform_system=="Windows"
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
