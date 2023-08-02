@@ -1,6 +1,6 @@
 # requirements for building the docs
 
-sphinx==3.2.1
+sphinx==3.3.0
 sphinx-multiversion==0.2.4
 # lunr==0.5.8
 
