@@ -19,3 +19,5 @@ black
 
 # windows-specific
 pypiwin32;platform_system=="Windows"
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
