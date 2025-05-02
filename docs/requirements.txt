@@ -9,3 +9,4 @@ git+https://github.com/evennia/recommonmark.git@evennia-mods#egg=recommonmark
 
 # sphinxcontrib-lunrsearch custom branch with evennia-specific fixes
 git+https://github.com/evennia/sphinxcontrib-lunrsearch.git@evennia-mods#egg=sphinxcontrib-lunrsearch
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
