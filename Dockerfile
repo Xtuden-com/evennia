@@ -28,7 +28,7 @@
 # as a base for creating your own custom containerized Evennia game. For more
 # info, see https://github.com/evennia/evennia/wiki/Running%20Evennia%20in%20Docker .
 #
-FROM python:3.7-alpine
+FROM python:3.14.0rc1-alpine
 
 LABEL maintainer="www.evennia.com"
 
