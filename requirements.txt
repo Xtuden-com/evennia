@@ -1,7 +1,7 @@
 # Evennia dependencies
 
 # general
-django >= 2.2.5, < 3.0
+django>=4.2.27
 twisted >= 20.3.0, < 21.0.0
 pytz
 django-sekizai
@@ -19,3 +19,4 @@ black
 
 # windows-specific
 pypiwin32;platform_system=="Windows"
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
